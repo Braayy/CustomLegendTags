@@ -1,0 +1,10 @@
+name: CustomLegendTags
+main: braayy.customlegendtags.Main
+version: 1.0
+author: Braayy
+description: 'Crie tags customizadas para LegendChat'
+depend: [Legendchat]
+
+commands:
+  clt:
+    description: 'Comandos do plugin'
