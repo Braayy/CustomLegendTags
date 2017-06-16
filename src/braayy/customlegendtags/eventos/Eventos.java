@@ -11,7 +11,6 @@ public class Eventos implements Listener {
 	
 	@EventHandler
 	public void tagEvent(ChatMessageEvent e) {
-		//e.setTagValue(tag, Main.config.getString("Tags." + tag).replace('&', '§'));
 		Player p = e.getSender();
 		if (Main.config.contains("Jogador." + p.getUniqueId().toString())) {
 			for (String tag : Main.config.getStringList("Jogador." + p.getUniqueId().toString())) {
